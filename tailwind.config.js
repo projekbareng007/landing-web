@@ -15,8 +15,14 @@ export default {
       },
       colors: {
         primary: "#027EFA",
+        'default-primary': "#264655",
         secondary: "#51CAFF",
-        tertiary: "#FFEE18"
+        'default-secondary': "#2B9D90",
+        tertiary: "#FFEE18",
+        'default-tertiary': "#E9C46B"
+      },
+      fontFamily: {
+        'open': ['Open Sans', 'sans-serif'],
       }
     },
   },
