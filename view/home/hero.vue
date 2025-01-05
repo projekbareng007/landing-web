@@ -3,10 +3,10 @@
     <div
       class="relative h-[calc(100vh-104px)] w-full flex flex-col justify-center items-center z-10"
     >
-      <div class="flex md:flex-row flex-col gap-2">
+      <div class="flex md:flex-row flex-col gap-2 md:pb-0 pb-8">
         <h1
           ref="title1"
-          class="text-white text-[7rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
+          class="text-white text-[6rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
         >
           <span
             v-for="(letter, index) in letters1"
@@ -17,7 +17,7 @@
         </h1>
         <h1
           ref="title2"
-          class="text-white text-[7rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
+          class="text-white text-[6rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
         >
           <span
             v-for="(letter, index) in letters2"
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="absolute right-10 top-[225px] z-0">
+    <div class="absolute right-10 transition-all top-[150px] md:top-[225px] z-0">
       <img
         ref="image1"
         src="/assets/images/ornament-blue.png"
@@ -37,7 +37,7 @@
         class="w-[200px] rounded-full"
       />
     </div>
-    <div class="absolute left-10 top-[300px] z-0">
+    <div class="absolute left-10 transition-all top-[200px] md:top-[300px] z-0">
       <img
         ref="image2"
         src="/assets/images/ornament-blue.png"
@@ -45,7 +45,7 @@
         class="w-[100px] rounded-full"
       />
     </div>
-    <div class="absolute left-10 top-[400px] z-0">
+    <div class="absolute left-10 transition-all top-[300px] md:top-[400px] z-0">
       <img
         ref="image3"
         src="/assets/images/ornament-yellow.png"
@@ -53,7 +53,7 @@
         class="w-[200px] rounded-full"
       />
     </div>
-    <div class="absolute right-10 top-[325px] z-0">
+    <div class="absolute right-10 transition-all top-[250px] md:top-[325px] z-0">
       <img
         ref="image4"
         src="/assets/images/ornament-yellow.png"
