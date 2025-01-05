@@ -6,7 +6,7 @@
     <header class="p-4 w-full">
       <div
         id="header1"
-        class="bg-white shadow-md p-4 max-w-[1000px] mx-auto w-full rounded-full fixed top-[-100px] left-0 right-0"
+        class="bg-white shadow-md p-4 max-w-[1000px] mx-auto w-full rounded-full fixed top-[-100px] left-0 right-0 z-50"
       >
         <div class="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 px-4">
           <div class="hidden md:flex md:span-col-1 flex-row items-center gap-2">
@@ -29,7 +29,7 @@
             class="md:span-col-1 flex flex-row justify-center md:justify-end items-center gap-4"
           >
             <nav>
-              <ul class="flex flex-row gap-4 items-center">
+              <ul class="flex flex-row gap-1 items-center">
                 <a href="#">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-default-primary hover:text-white hover:rounded-full transition-all px-2 py-1 text-default-primary"
@@ -43,13 +43,6 @@
                   >
                     About Us
                   </li>
-                </a>
-                <a href="#">
-                  <img
-                    src="/assets/images/pb-icon.png"
-                    alt="logo"
-                    class="md:hidden block w-6 h-6 rounded-full"
-                  />
                 </a>
                 <a href="#">
                   <li
@@ -73,7 +66,7 @@
       </div>
       <div
         id="header2"
-        class="p-4 max-w-[1000px] mx-auto w-full"
+        class="p-4 max-w-[1000px] mx-auto w-full z-50"
       >
         <div class="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 px-4">
           <div class="hidden md:flex md:span-col-1 flex-row items-center gap-2">
@@ -95,7 +88,7 @@
             class="md:span-col-1 flex flex-row justify-center md:justify-end items-center gap-4"
           >
             <nav>
-              <ul class="flex flex-row gap-4 items-center">
+              <ul class="flex flex-row gap-1 items-center">
                 <a href="#">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-white hover:text-primary hover:rounded-full transition-all px-2 py-1 text-white"
@@ -109,13 +102,6 @@
                   >
                     About Us
                   </li>
-                </a>
-                <a href="#">
-                  <img
-                    src="/assets/images/pb-icon-white.png"
-                    alt="logo"
-                    class="md:hidden block w-6 h-6 rounded-full"
-                  />
                 </a>
                 <a href="#">
                   <li
