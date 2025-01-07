@@ -3,10 +3,10 @@
     <div
       class="relative h-[calc(100vh-104px)] w-full flex flex-col justify-center items-center z-10"
     >
-      <div class="flex md:flex-row flex-col gap-2 md:pb-0 pb-8">
+      <div class="flex xl:flex-row flex-col gap-2 xl:pb-0 pb-8">
         <h1
           ref="title1"
-          class="text-white text-[6rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
+          class="text-white text-[6rem] md:text-[9rem] xl:text-[12rem] px-4 md:px-0 font-semibold xl:pb-16 leading-none"
         >
           <span
             v-for="(letter, index) in letters1"
@@ -17,7 +17,7 @@
         </h1>
         <h1
           ref="title2"
-          class="text-white text-[6rem] md:text-[12rem] px-4 md:px-0 font-semibold md:pb-16 leading-none"
+          class="text-white text-[6rem] md:text-[9rem] xl:text-[12rem] px-4 md:px-0 font-semibold xl:pb-16 leading-none"
         >
           <span
             v-for="(letter, index) in letters2"
