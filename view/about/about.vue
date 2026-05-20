@@ -4,17 +4,29 @@
       class="relative h-[calc(100vh-104px)] w-full flex flex-col justify-center items-center z-10"
     >
       <div>
-        <h2 class="text-[4rem] md:text-[6rem] xl:text-[9rem] text-white font-semibold leading-none">
+        <h2
+          class="text-[4rem] md:text-[6rem] xl:text-[9rem] text-white font-semibold leading-none"
+        >
           About Us
         </h2>
       </div>
-      <div class="w-full mt-20 p-10 lg:p-0">
+      <div class="w-full mt-20 p-10 lg:p-10">
         <div
           id="card"
-          class="bg-white w-full lg:max-w-[900px] lg:max- mx-auto px-6 py-8 flex flex-col gap-3 rounded-md relative overflow-hidden"
+          class="bg-white w-full mx-auto px-6 py-8 flex flex-col gap-3 rounded-md relative overflow-hidden"
         >
+
           <div class="flex flex-col gap-3 z-20">
-            <p>
+            <p class="text-[38px]">
+              Kami adalah tim kecil dengan mimpi besar di dunia IT. Dengan
+              pengalaman dari beberapa portfolio, kami berkomitmen memberikan
+              solusi teknologi terbaik untuk kebutuhan Anda. Kami percaya
+              kolaborasi adalah kunci, dan bersama Anda, kami siap menciptakan
+              inovasi luar biasa. Jika butuh partner teknologi yang kreatif,
+              fleksibel, dan mudah diajak diskusi, jangan ragu untuk menghubungi
+              kami. Let’s build something awesome together!
+            </p>
+            <!-- <p>
               <span class="font-semibold">Hai!</span> Kami adalah tim kecil
               dengan mimpi besar di
               <span class="font-semibold">dunia IT.</span> Kami percaya bahwa
@@ -37,7 +49,7 @@
             </p>
             <p class="font-semibold text-lg text-primary">
               Let’s build something awesome together!
-            </p>
+            </p> -->
           </div>
           <div
             class="absolute left-[-50px] transition-all top-[0px] xl:top-[0px] z-0"
@@ -106,3 +118,5 @@ export default {
   transition: transform 0.3s ease;
 }
 </style>
+
+          <!-- style=md:max-w-[600px] lg:max-w-[1000px] mx-auto -->
