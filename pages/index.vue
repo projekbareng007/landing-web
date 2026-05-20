@@ -2,6 +2,7 @@
 import About from "~/view/about/about.vue";
 import Hero from "~/view/home/hero.vue";
 import Portfolio from "~/view/portfolio/portfolio.vue";
+import Contact from "~/view/contact/contact.vue";
 
 useSeoMeta({
   title: 'Projek Bareng',
@@ -41,5 +42,7 @@ useSeoMeta({
     <Hero />
     <About />
     <Portfolio />
+    <Contact />
   </div>
 </template>
+

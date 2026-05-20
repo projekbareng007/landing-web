@@ -30,28 +30,28 @@
           >
             <nav>
               <ul class="flex flex-row gap-1 items-center">
-                <a href="#">
+                <a href="#body">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-default-primary hover:text-white hover:rounded-full transition-all px-2 py-1 text-default-primary"
                   >
                     Home
                   </li>
                 </a>
-                <a href="#">
+                <a href="#about-us">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-default-primary hover:text-white hover:rounded-full transition-all px-2 py-1 text-default-primary"
                   >
                     About Us
                   </li>
                 </a>
-                <a href="#">
+                <a href="#portfolio">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-default-primary hover:text-white hover:rounded-full transition-all px-2 py-1 text-default-primary"
                   >
                     Portfolio
                   </li>
                 </a>
-                <a href="#">
+                <a href="#contact">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-default-primary hover:text-white hover:rounded-full transition-all px-2 py-1 text-default-primary"
                   >
@@ -89,28 +89,28 @@
           >
             <nav>
               <ul class="flex flex-row gap-1 items-center">
-                <a href="#">
+                <a href="#body">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-white hover:text-primary hover:rounded-full transition-all px-2 py-1 text-white"
                   >
                     Home
                   </li>
                 </a>
-                <a href="#">
+                <a href="#about-us">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-white hover:text-primary hover:rounded-full transition-all px-2 py-1 text-white"
                   >
                     About Us
                   </li>
                 </a>
-                <a href="#">
+                <a href="#portfolio">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-white hover:text-primary hover:rounded-full transition-all px-2 py-1 text-white"
                   >
                     Portfolio
                   </li>
                 </a>
-                <a href="#">
+                <a href="#contact">
                   <li
                     class="min-w-[72px] md:min-w-[105px] md:text-base text-[11px] text-center hover:font-semibold hover:bg-white hover:text-primary hover:rounded-full transition-all px-2 py-1 text-white"
                   >

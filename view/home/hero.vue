@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div id="hero-section" class="relative overflow-hidden">
     <div
       class="relative h-[calc(100vh-104px)] w-full flex flex-col justify-center items-center z-10"
     >
@@ -66,6 +66,7 @@
 
 <script>
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default {
   data() {
@@ -75,8 +76,12 @@ export default {
     };
   },
   mounted() {
+    gsap.registerPlugin(ScrollTrigger);
+
     const letters1 = this.$refs.title1.querySelectorAll(".letter");
     const letters2 = this.$refs.title2.querySelectorAll(".letter");
+    
+    // Original bouncy entrance animation on mount
     gsap.from([...letters1, ...letters2], {
       y: () => Math.random() * -200 - 100,
       x: () => Math.random() * 200 - 100,
@@ -87,19 +92,37 @@ export default {
       ease: "bounce.out",
     });
 
+
+
     const images = [
       this.$refs.image1,
       this.$refs.image2,
       this.$refs.image3,
       this.$refs.image4,
     ];
+    
+    // Original breathing loop
     images.forEach((image) => {
       gsap.to(image, {
-        scale: () => Math.random() * 0.5 + 1,
-        duration: 2,
+        scale: () => Math.random() * 0.4 + 1.1,
+        duration: 2.5,
         repeat: -1,
         yoyo: true,
         ease: "power1.inOut",
+      });
+    });
+
+    // Scroll parallax exit translation for ornaments
+    images.forEach((image, index) => {
+      gsap.to(image, {
+        y: index % 2 === 0 ? 180 : 280,
+        opacity: 0.05,
+        scrollTrigger: {
+          trigger: "#hero-section",
+          start: "top top",
+          end: "bottom 15%",
+          scrub: 0.5,
+        }
       });
     });
   },
